@@ -41,3 +41,10 @@
   font-family: monospace;
     
 }
+
+/*.counter-section{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}*/
