@@ -42,9 +42,21 @@
     
 }
 
+.btn-section{
+  display: flex;
+  justify-content: center;
+}
 .counter-section{
   display: flex;
-  align-content: center;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
+  border-color: black;
+  border-width: 4px;
+}
+
+.counter-section h3{
+  margin: 20px 30px;
+}
+.counter-section p{
+  font-size: 30px;
 }
