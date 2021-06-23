@@ -1,16 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import {Item} from "./Item";
 
 
 function ItemList() {
-
-    this.state = {
-        items: []
-    };
+    const [items, setItems] = useState(Item);
     
     return (
         <div>
-            {this.state.items.map((item) =>{
+            {items.map((item) =>{
                 return(
                     <ul key={item.id}>
                         <li>{item.name} - ${item.price}</li>
