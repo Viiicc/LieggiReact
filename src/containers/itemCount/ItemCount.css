@@ -3,8 +3,15 @@
     height: fit-content;
     margin-top: 14px;
     display: block;
-  }
+}
   
-  .qty p {
+.qty p {
     font-size: 1.5rem;
-  }
+}
+
+.qty input{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    font-size: larger;
+}

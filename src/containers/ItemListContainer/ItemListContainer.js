@@ -12,7 +12,6 @@ export const ItemListContainer = () => {
 
 
             <ItemCount stock="12" initial="1"/>
-            
             <ItemList/>
         </div>
     )

@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-       "name": "Pizza Napolitana",
-       "price": 770,
+       "nombre": "Pizza Napolitana",
+       "precio": 770,
        "destacado": true,
        "description":"Pizza grande Napolitana(Salsa Tomate, Queso Mozzarella, Ajo, Rodajas de Tomate Fresco",
        "imagen": "../IMAGES/Napo.png"
