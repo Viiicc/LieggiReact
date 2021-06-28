@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { ItemCount } from '../itemCount/ItemCount';
-import { ItemList }  from '../ItemList/ItemList';
+import { ItemList }  from '../itemList/ItemList';
 
 
 

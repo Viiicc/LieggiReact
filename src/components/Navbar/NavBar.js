@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from '../Logo'
 import Carrito from "../cartWidget/Cart"
-import { Navbar } from 'react-bootstrap'
+import { Nav } from "react-bootstrap"
+import  { Navbar }  from 'react-bootstrap'
 import "./Navbar.css"
 
 

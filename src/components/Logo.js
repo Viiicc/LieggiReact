@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import imagen from "../../LOGO.png"
+import imagen from "./Navbar/LOGO.png"
 
 
 function Logo() {
