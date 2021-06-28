@@ -16,7 +16,7 @@ export default function NavBar() {
           <Nav.Link href="#pricing">Sobre Nosotros</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets"><a href="#"><Carrito/></a></Nav.Link>      
+          <Nav.Link href="#deets"><a href="#" className="carrito"><Carrito/></a></Nav.Link>      
         </Nav>
       </Navbar>
     )

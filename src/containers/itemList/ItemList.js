@@ -1,14 +1,23 @@
+import { useEffect } from 'react';
+import { useState } from 'react';
 import  Item  from "../../components/Item/Item";
+import axios from "axios"
 
 import "./ItemList.css"
 
 
-export const ItemList= ({items}) =>{
+function ItemList() { 
     
+    const [items, setItems] = useState([]);
+
+    useEffect(()=>{
+        axios("../ItemListContainer/Productor.json").then((res) => setItems(res.data));
+    },[]);
+
     return (
         <div>
             {items.map((item) =>{
-                return(<Item key={item.id} item={item}/>
+                return(<Item key={item.id} items={item}/>
                 );
             })}
         </div>
@@ -16,4 +25,4 @@ export const ItemList= ({items}) =>{
     
 }
 
-
+export default ItemList

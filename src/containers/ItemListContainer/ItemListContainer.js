@@ -1,25 +1,11 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
 import { ItemCount } from '../itemCount/ItemCount';
-import { ItemList }  from '../itemList/ItemList';
+import  ItemList   from '../itemList/ItemList';
 
 
 
 import './ItemListContainer.css'
 
 export const ItemListContainer = () => {
-
-    const [items, setItems] = useState([]);
-
-    useEffect(()=>{
-        fetch('./Productor.json')
-        .then(response => response.json())
-        .then(data => setItems(data))
-        .catch(error => {
-            console.error(error)
-        })
-    },[])
-
 
     return (
         <div className="Estilo1">
