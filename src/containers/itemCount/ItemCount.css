@@ -1,0 +1,10 @@
+.qty {
+    width: 300px;
+    height: fit-content;
+    margin-top: 14px;
+    display: block;
+  }
+  
+  .qty p {
+    font-size: 1.5rem;
+  }

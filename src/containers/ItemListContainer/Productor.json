@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+       "name": "Pizza Napolitana",
+       "price": 770,
+       "destacado": true,
+       "description":"Pizza grande Napolitana(Salsa Tomate, Queso Mozzarella, Ajo, Rodajas de Tomate Fresco",
+       "imagen": "../IMAGES/Napo.png"
+    },
+    {
+      "id": 2,
+       "nombre": "Pizza Pepperoni",
+       "precio": 850,
+       "destacado": true,
+       "description":"Pizza grande Pepperoni (Salsa de Tomate, Queso Mozzarella, Lonjas de Pepperoni",
+       "imagen": "../IMAGES/Peppe.png"
+    },
+    {
+      "id": 3,
+       "nombre": "Pizza Margarita",
+       "precio": 700,
+       "destacado": true,
+       "description":"Pizza grande Margarita (Salsa de Tomate, Queso Mozzarella, Hojas frescas de Albahaca)",
+       "imagen": "../IMAGES/Marga.png"
+    },
+    {
+      "id": 4,
+       "nombre": "Pizza Veggie",
+       "precio": 890,
+       "destacado": true,
+       "description":"Pizza grande Vegetariana (Salsa de Tomate, Queso Mozarella, Verduras varias)",
+       "imagen": "../IMAGES/veggie.png"
+    },
+    {
+      "id": 5,
+       "nombre": "Empanada de Pollo",
+       "precio": 20,
+       "destacado": true,
+       "description":"Empanada rellana de salsa y pollo",
+       "imagen": "../IMAGES/Empanada.png"
+    },
+    {
+      "id": 6,
+       "nombre": "Empanada Jamon y Queso",
+       "precio": 20,
+       "destacado": true,
+       "description":"Empanada rellena de Jamon y Queso Muzzarella",
+       "imagen": "../IMAGES/Empanada.png"
+    },
+    {
+      "id": 7,
+       "nombre": "Empanada de Carne",
+       "precio": 25,
+       "destacado": true,
+       "description":"Empanada rellena de carne cortada a cuchillo",
+       "imagen": "../IMAGES/Empanada.png"
+    },
+    {
+      "id": 8,
+       "nombre": "Empanada Veggie",
+       "precio": 35,
+       "destacado": true,
+       "description":"Empanada rellena de Espinaca y salsa blanca",
+       "imagen": "../IMAGES/Empanada.png"
+    },
+    {
+      "id": 9,
+       "nombre": "Gaseosa linea Coca-Cola 1.5l",
+       "precio": 180,
+       "destacado": true,
+       "description":"Gaseosa 1.5l (Coca-Cola, Sprite, Fanta, Schweppes)",
+       "imagen": "../IMAGES/Coca.png"
+    },
+    {
+        "id": 10,
+         "nombre": "Cerveza 1l",
+         "precio": 180,
+         "destacado": true,
+         "description":"Cerveza 1l (Quilmes, Brahma, Heineken, Stella Artois)",
+         "imagen": "../IMAGES/Cerveza.png"
+      }
+  ]
