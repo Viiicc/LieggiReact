@@ -1,28 +1,29 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
-import  Item  from "../../components/Item/Item";
-import axios from "axios"
+import { Link } from "react-router-dom"
+import { Container } from 'react-bootstrap'
+import { Item } from '../../components/Item/Item'
 
-import "./ItemList.css"
+import './ItemList.css'
 
-
-function ItemList() { 
-    
-    const [items, setItems] = useState([]);
-
-    useEffect(()=>{
-        axios("../ItemListContainer/Productor.json").then((res) => setItems(res.data));
-    },[]);
+export const ItemList = ({items}) => {
 
     return (
-        <div>
-            {items.map((item) =>{
-                return(<Item key={item.id} items={item}/>
-                );
-            })}
-        </div>
-        );
-    
-}
+        <>
 
-export default ItemList
+        <Container>
+            {items.map(element => {
+                return (
+                    <Link to='/detail/{element.id}'>
+                        <div key={element.id}> 
+                  
+                            <Item  item={element} />
+               
+                        </div> 
+                    </Link>
+                )
+                
+            })}
+        </Container>
+
+        </>
+    )
+}

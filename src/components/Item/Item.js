@@ -1,19 +1,24 @@
-import React from 'react'
-import { Card, Image } from 'semantic-ui-react'
+import { ItemCount } from '../../containers/itemCount/ItemCount'
+import Card from 'react-bootstrap/Card'
+import { Link } from 'react-router-dom'
 
-const Item = ({item}) => (
-  <Card>
-    <Image src={item.imagen} wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>{item.nombre}</Card.Header>
-      <Card.Description>
-       {item.description}
-      </Card.Description>
-    </Card.Content>
-    <Card.Content >
-      <p>${item.precio}</p>
-    </Card.Content>
-  </Card>
-)
+export const Item = ({item}) => {
 
-export default Item
+    return (
+        <Link to='/detail/{item.id}'>
+        <>
+
+        <Card style={{ width: '18rem', margin: 40 }}>
+        <Card.Img variant="top" width="200px" height="200px" src={item.photo_url} />
+        <Card.Body>
+            <Card.Title>{item.name}</Card.Title>
+            <Card.Text>
+            ${item.price}
+            </Card.Text>
+        </Card.Body>
+        </Card>
+            
+        </>
+        </Link>
+    )
+}
